@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- stylesheet (icon) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>tripadvisorclone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- heading -->
+
+     <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="./image/tripadvisorlogo.jpeg" alt="Tripadvisor Logo"> Tripadvisorclone
+    </div>
+    <div class="navbar-center">
+      <a href="#">Discover</a>
+      <a href="#">Trips</a>
+      <a href="#">Review</a>
+      <a href="#">More</a>
+    </div>
+    <div class="navbar-right">
+      <i class="fa-solid fa-globe"></i> INR
+      <button class="sign-in">Sign in</button>
+    </div>
+  </nav>
+
+  <!-- middle Section -->
+  <dib class="whereto">
+    <h1>Where to?</h1>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <a href="#" class="active"><i class="fa-solid fa-house"></i> Search All</a>
+      <a href="#"><i class="fa-solid fa-bed"></i> Hotels</a>
+      <a href="#"><i class="fa-solid fa-camera"></i> Things to Do</a>
+      <a href="#"><i class="fa-solid fa-utensils"></i> Restaurants</a>
+      <a href="#"><i class="fa-solid fa-plane"></i> Flights</a>
+      <a href="#"><i class="fa-solid fa-home"></i> Holiday Homes</a>
+    </div>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass" style="margin-left: 10px; color: #064420;"></i>
+      <input type="text" placeholder="Places to go, things to do, hotels...">
+      <button>Search</button>
+    </div>
+  </div>
+
+
+
+    <!-- imagebox -->
+
+    <div class="image-box">
+      <div class="nature-img">
+        <img src="./image/amanda-brady-G1TbBtiPMbc-unsplash.jpg" alt="" />
+      </div>
+
+      <div class="image-box-text">
+        <h1><b>Find things to do for everything you're into</b></h1>
+        <p>Browse 400,000+ experience and book with us</p>
+
+        <button class="booknow-btn">Book now</button>
+      </div>
+    </div>
+
+    <!-- 5th part -->
+    <!-- card container -->
+
+    <div class="card-container-interest">
+      <h2>Find things to do by interest</h2>
+      <p>Whatever you're into, we've got it</p>
+
+      <div class="card-container">
+        <div class="card" id="card">
+          <img src="./image/outdoor.jpg" alt="Outdoors" />
+          <span>Outdoors</span>
+        </div>
+        <div class="card">
+          <img src="./image/food.jpg" alt="Food" />
+          <span>Food</span>
+        </div>
+        <div class="card">
+          <img src="./image/culture.jpg" alt="Culture" />
+          <span>Culture</span>
+        </div>
+        <div class="card">
+          <img src="./image/water.jpg" alt="Water" />
+          <span>Water</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6th part -->
+    <!-- slider -->
+
+    <div class="slider">
+      <div class="slide-headings">
+        <h2>Things to do—right now</h2>
+        <p>Seasonal faves you don't want to miss</p>
+      </div>
+      <!-- Radio buttons -->
+      <input type="radio" name="slider" id="slide1" checked />
+      <input type="radio" name="slider" id="slide2" />
+
+      <!-- Slides container -->
+      <div class="images-slides">
+        <!-- Slide 1 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slideone.jpg" alt="image" />
+            <div class="location">Sorrento</div>
+            <div class="title">Small-group boat tour of the Amalfi Coast</div>
+            <div class="rating">⭐ 4.8 (329)</div>
+            <div class="price">from ₹16,136 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide2.jpg" alt="image" />
+            <div class="location">Albufeira</div>
+            <div class="title">Dolphins Search and Benagil Caves</div>
+            <div class="rating">⭐ 4.9 (3,406)</div>
+            <div class="price">from ₹3,667 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide3.jpg" alt="image" />
+            <div class="location">Calgary</div>
+            <div class="title">Explore Banff National Park</div>
+            <div class="rating">⭐ 5.0 (324)</div>
+            <div class="price">from ₹9,398 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide4.jpg" alt="image" />
+            <div class="location">Jackson</div>
+            <div class="title">Whitewater Rafting</div>
+            <div class="rating">⭐ 4.9 (491)</div>
+            <div class="price">from ₹11,669 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide5.jpg" alt="image" />
+            <div class="location">Paris</div>
+            <div class="title">Eiffel Tower Tour</div>
+            <div class="rating">⭐ 4.7 (1,234)</div>
+            <div class="price">from ₹5,000 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide6.jpg" alt="image" />
+            <div class="location">Rome</div>
+            <div class="title">Colosseum Guided Tour</div>
+            <div class="rating">⭐ 4.8 (890)</div>
+            <div class="price">from ₹7,500 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 7 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide7.jpg" alt="image" />
+            <div class="location">Dubai</div>
+            <div class="title">Desert Safari</div>
+            <div class="rating">⭐ 4.9 (2,345)</div>
+            <div class="price">from ₹4,200 per adult</div>
+          </div>
+        </div>
+        <!-- Slide 8 -->
+        <div class="img-slide">
+          <div class="img-card">
+            <img src="./image/slide8.jpg" alt="image" />
+            <div class="location">Bali</div>
+            <div class="title">Island Hopping Tour</div>
+            <div class="rating">⭐ 4.8 (1,789)</div>
+            <div class="price">from ₹6,300 per adult</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="nav">
+        <label for="slide1">&#10094;</label>
+        <label for="slide2">&#10095;</label>
+      </div>
+    </div>
+
+    <!-- 7th part -->
+    <section class="banner">
+      <!-- Replace with your uploaded image -->
+      <img src="./image/banner.jpg" alt="Travel group image" />
+
+      <!-- Badge -->
+      <div class="banner-badge">2025</div>
+
+      <!-- Content -->
+      <div class="banner-content">
+        <h1>The world’s best things to do</h1>
+        <p>
+          Make it a trip to remember with 2025’s Travellers’ Choice Awards Best
+          of the Best.
+        </p>
+        <button class="banner-btn">Reveal the winners</button>
+      </div>
+    </section>
+
+    <!-- Floating purple button -->
+    <div class="floating-btn">
+      <span>★</span>
+    </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-column">
+        <h4>About Tripadvisor</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Resources and Policies</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Trust & Safety</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Tripadvisor Technology Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#">Write a review</a></li>
+          <li><a href="#">Add a Place</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Travellers' Choice</a></li>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Travel Stories</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Do Business With Us</h4>
+        <ul>
+          <li><a href="#">Owners & DMO/CVB</a></li>
+          <li><a href="#">Business Advantage</a></li>
+          <li><a href="#">Sponsored Placements</a></li>
+          <li><a href="#">Access our Content API</a></li>
+        </ul>
+        <h4>Get The App</h4>
+        <ul>
+          <li><a href="#">iPhone App</a></li>
+          <li><a href="#">Android App</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Tripadvisor Sites</h4>
+        <ul>
+          <li><a href="#">Book tours and attraction tickets on Viator</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-info">
+        <!-- Simple TripAdvisor-like logo -->
+        <svg viewBox="0 0 24 24">
+          <circle cx="7" cy="12" r="5"/>
+          <circle cx="17" cy="12" r="5"/>
+          <circle cx="7" cy="12" r="2" fill="white"/>
+          <circle cx="17" cy="12" r="2" fill="white"/>
+        </svg>
+        <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy and Cookies Statement</a>
+        <a href="#">Cookie consent</a>
+        <a href="#">Site Map</a>
+        <a href="#">How the site works</a>
+        <a href="#">Contact us</a>
+        <a href="#">Accessibility Statement</a>
+      </div>
+
+      <div class="selectors">
+        <select>
+          <option>₹ INR</option>
+          <option>$ USD</option>
+          <option>€ EUR</option>
+        </select>
+        <select>
+          <option>India</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+        </select>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+
+      <div class="footer-disclaimer">
+        Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. 
+        Listed prices may require a stay of a particular length or have blackout dates, qualifications or other 
+        applicable restrictions. <a href="#">Read more</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+  </body>
+</html>
