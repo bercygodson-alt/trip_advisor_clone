@@ -13,19 +13,8 @@ It replicates the **sticky navbar**, **search bar**, and **hero section ("Where 
 - ✅ No JavaScript used  
 
 ---
-
-## 📸 Screenshots
-
-### Navbar (Sticky)
-![Navbar Screenshot](your-screenshot-link-1.png)
-
-### Hero Section
-![Hero Screenshot](your-screenshot-link-2.png)
-
----
-
 ## 🚀 Live Demo
-🔗 [View Project on GitHub Pages](https://yourusername.github.io/repository-name/)
+🔗 [View Project on GitHub Pages](https://bercygodson-alt.github.io/trip_advisor_clone/)
 
 ---
 
